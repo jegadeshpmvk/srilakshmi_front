@@ -7,7 +7,7 @@ var root = {
         this._height = $(window).height();
 
         root.bannerSlider();
-       // this.disableRightClick();
+        this.disableRightClick();
 
 
     },
