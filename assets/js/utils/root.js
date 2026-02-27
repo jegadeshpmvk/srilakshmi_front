@@ -8,7 +8,7 @@ var root = {
 
         root.bannerSlider();
         root.twoColSlider();
-        root.disableRightClick();
+       // root.disableRightClick();
 
 
     },
