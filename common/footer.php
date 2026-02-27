@@ -86,12 +86,14 @@
 </div>
 </div>
 <!-- <script src="../assets/js/libs/app.min.js"></script> -->
- <script src="../assets/js/libs/jquery-4.0.0.min.js"></script>
+<script src="../assets/js/libs/jquery-4.0.0.min.js"></script>
 <script src="../assets/js/libs/swiper-bundle.min.js"></script>
+<script src="../assets/js/libs/sweetalert.js"></script>
 <script src="../assets/js/utils/scrollbar.js?v=<?= time() ?>"></script>
 <script src="../assets/js/utils/video.js?v=<?= time() ?>"></script>
 <script src="../assets/js/utils/root.js?v=<?= time() ?>"></script>
-<script src="../assets/js/script.js?v=<? time() ?>"></script>
+<script src="../assets/js/script.js?v=<?= time() ?>"></script>
+<script src="../assets/js/order.js?v=<?= time() ?>"></script>
 </body>
 
 </html>

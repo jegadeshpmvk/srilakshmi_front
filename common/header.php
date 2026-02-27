@@ -298,7 +298,8 @@
     <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css" type="text/css">
     <link rel="stylesheet" href="../assets/css/font.css" type="text/css">
     <link rel="stylesheet" href="../assets/css/stylesheet.css" type="text/css">
-    
+    <link rel="stylesheet" href="../assets/css/order.css" type="text/css">
+
     <link rel="shortcut icon" href="https://srilaxmiscrackers.com/assets/images/logo.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="https://srilaxmiscrackers.com/assets/images/logo.png">
 </head>
@@ -322,9 +323,8 @@
                         </div>
                         <div class="menu">
                             <ul>
-                                <li class=""><a class="active">Home</a></li>
-                                <li class=""><a class="">Home</a></li>
-                                <li class=""><a class="">Home</a></li>
+                                <li class=""><a href="/" class="active">Home</a></li>
+                                <li class=""><a href="/order.php " class="">Order</a></li>
                                 <li class=""><a class="">Home</a></li>
                                 <li class=""><a class="">Home</a></li>
                                 <li class=""><a class="">Home</a></li>

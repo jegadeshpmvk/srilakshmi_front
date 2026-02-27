@@ -1,0 +1,94 @@
+<div class="cart_details sec_pad">
+    <div class="order_contanier">
+        <table class="table table_secondary table_striped cth">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product Name</th>
+                    <th>MRP Price</th>
+                    <th>Discount Price</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="cart_list">
+            </tbody>
+        </table>
+
+        <div class="cart_form">
+            <form class="customer_details">
+                <div class="_form_row">
+                    <div class="_col _col_2">
+                        <div class="_form_group">
+                            <label for="customer_name">Name </label>
+                            <input class="form_control validate_text" id="customer_name" name="customer_name" type="text" placeholder="Enter Your Name" />
+                        </div>
+                    </div>
+                    <div class="_col _col_2">
+                        <div class="_form_group">
+                            <div class="_form_group">
+                                <label for="number">Number </label>
+                                <input class="form_control validate_number" maxlength="10" id="number" name="number" type="number" placeholder="Enter Your Number..." />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="_col _col_2">
+                        <div class="_form_group">
+                            <label for="Whatsapp ">Whatsapp</label>
+                            <input class="form_control" id="whatsapp" maxlength="10" name="whatsapp" type="text" placeholder="Enter Your Whatapp..." />
+                        </div>
+                    </div>
+                    <div class="_col _col_2">
+                        <div class="_form_group">
+                            <label for="Whatsapp ">E-Mail</label>
+                            <input class="form_control validate_email" id="email" name="email" type="email" placeholder="Enter Your E-Mail..." />
+                        </div>
+                    </div>
+                     <div class="_col _col_2">
+                        <div class="_form_group">
+                            <label for="Whatsapp ">Reference</label>
+                            <input class="form_control" id="ref" name="email" type="email" placeholder="Enter Your E-Mail..." />
+                        </div>
+                    </div>
+                    <div class="_col _col_2">
+                        <div class="_form_group">
+                            <label for="address ">Address </label>
+                            <textarea class="form_control validate_text" id="address " name="address" placeholder="Enter Your Address..."></textarea>
+                        </div>
+                    </div>
+                    <div class="_col _col_2">
+                        <div class="_form_group">
+                            <label for="state ">Select State</label>
+                            <div class="form_select">
+                                <select id="state " class="form_control form_state_delivery validate_select" name="state">
+                                    <option value="">Select State</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="cart_coupon_code">
+            <a class="promation_code">Have Promotion Code ?</a>
+            <form class="coupon_code_form">
+                <input type="text" name="code" class="coupon_code" />
+                <input type="submit" value="Apply" class="coupon_code_submit" />
+                <a class="coupon_code_clear">Clear</a>
+            </form>
+        </div>
+        <div class="cart_summary">
+            <div class="min_order">Minimum Order : <span></span></div>
+            <div class="tol_qty">Total Quantity : <span></span></div>
+            <div class="cart_total">Total : <span></span></div>
+            <div class="packing_charge">Packing Charge : <span></span></div>
+            <div class="promotion_discount">Promotion Discount : <span></span></div>
+            <div class="overall_total_cart ">Overall Total : <span></span></div>
+        </div>
+        <div class="cart_btns">
+            <a class="" href="/order.php">Continue Shopping</a>
+            <a class="confirm_order" href="#">Confirm Order</a>
+        </div>
+    </div>
+</div>
