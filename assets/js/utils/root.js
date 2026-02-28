@@ -8,7 +8,7 @@ var root = {
 
         root.bannerSlider();
         root.twoColSlider();
-       // root.disableRightClick();
+        root.disableRightClick();
 
 
     },
@@ -56,6 +56,19 @@ var root = {
                 nextEl: ".two_col_slider .next_arrow",
                 prevEl: ".two_col_slider .prev_arrow",
             },
+            breakpoints: {
+                0: {          // Mobile
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                576: {        // Small devices
+                    slidesPerView: 1
+                },
+                768: {        // Tablets
+                    slidesPerView: 2,
+                    spaceBetween: 15
+                },
+            }
         });
     },
     disableRightClick: function () {
@@ -91,6 +104,16 @@ var order = {
             order.getCartSummary();
             order.getDeliveries();
             order.getOrderPdf();
+
+            //Clone Header for Sticky
+            var header = $('.header').clone().addClass('sticky');
+            header.prependTo('body');
+            $('.header').addClass('visi_hidd');
+            $('.header.sticky').removeClass('visi_hidd');
+
+            var nav = $('body .viewport .header ul.main_menu').clone();
+            $('body').prepend("<div class='mobile_nav'></div>");
+            nav.appendTo('.mobile_nav');
         }
     },
     categorySlider: function () {

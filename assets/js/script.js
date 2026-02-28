@@ -11,8 +11,10 @@ $(function () {
         video.embed(this.href);
     });
 
-
-
+    $('body').on('click', '.burger_menu', function (e) {
+        e.preventDefault();
+        $('body').toggleClass('open_menu');
+    });
 
     //Close overlay
     $('body').on('click', '.video-overlay .close', function (e) {
